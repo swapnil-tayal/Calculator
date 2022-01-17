@@ -1,0 +1,45 @@
+* {
+    font-family: 'Nunito', sans-serif;}
+
+#container{
+    height: auto;
+    width: 585px;
+    background: linear-gradient(120deg, #ff5959, #6363ff);
+    margin-top: 100px;
+    padding: 1rem;
+}
+
+#output{
+    height:100px;
+    width: 550px;
+    background-color:whitesmoke;
+    margin:1rem;
+    margin
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#values{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+#values div{
+    height: 50px;
+    width: 130px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#values #zero{
+    height: 50px;
+    width: 275px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
