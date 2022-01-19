@@ -3,22 +3,21 @@
 
 #container{
     height: auto;
-    width: 585px;
-    background: linear-gradient(120deg, #ff5959, #6363ff);
+    width: 290px;
+    background: black;
     margin-top: 100px;
     padding: 1rem;
+    border-radius: 20px;
 }
 
 #output{
     height:100px;
-    width: 550px;
-    background-color:whitesmoke;
+    width: auto;
+    background-color: black;
+    color: white;
     margin:1rem;
-    margin
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
     font-size: 4rem;
-    box-shadow: 2px 2px 2px #888888;
+    text-align: end;
 }
 
 #values{
@@ -29,17 +28,27 @@
 }
 
 #values div{
-    height: 50px;
-    width: 130px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    box-shadow: 2px 2px 2px #888888;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 #values #zero{
     height: 50px;
-    width: 275px;
-    background-color: whitesmoke;
-    border-radius: 5px;
+    width: 124px;
+    background-color: #383838;
+    color: white;
+    border-radius: 22px;
+}
+#values #oper2{
+    background-color: #fb9a31;
+    font-size: 1.2rem;
+}
+#values #oper1{
+    background-color: #a7a7a7;
+    color: black;
 }
